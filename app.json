@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Palm Tourism",
+    "slug": "palm-tourism",
+    "scheme": "untitled-app",
+    "description": "Palm Tourism",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "icon": "./assets/app/icon.png",
+    "splash": {
+      "image": "./assets/app/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#38B6FF"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.draftbit.untitledapp",
+      "supportsTablet": false,
+      "buildNumber": "1.0.0",
+      "infoPlist": {},
+      "usesIcloudStorage": false
+    },
+    "android": {
+      "versionCode": 1,
+      "package": "com.draftbit.untitledapp",
+      "permissions": []
+    },
+    "web": {
+      "themeColor": "#000000"
+    },
+    "notification": {
+      "androidMode": "default"
+    }
+  }
+}
